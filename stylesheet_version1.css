@@ -1,20 +1,6 @@
  @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
         
-        #myInput {
-/*         input[type=text] { */
-        width: 140px;
-        box-sizing: border-box;
-        border: 1px solid #ccc;
-        border-radius: 8px;
-        font-size: 15px;
-        background-color: rgb(255, 255, 255);
-/*         background-image: url('searchicon.png'); */
-        background-position: 10px 10px; 
-        background-repeat: no-repeat;
-        padding: 12px 20px 12px 40px;
-        -webkit-transition: width 0.4s ease-in-out;
-        transition: width 0.4s ease-in-out;
-        }
+
 
         #myInput:focus {
         width: 100%;
