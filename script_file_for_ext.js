@@ -124,6 +124,20 @@ function myFunction() {
       txtValue = td.textContent || td.innerText;
       if (txtValue.toUpperCase().indexOf(filter) > -1) {
         tr[i].style.display = "";
+          
+        var input2, filter2, txtValue2;
+        input2 = document.getElementById("myInput2");
+        filter2 = input2.value.toUpperCase();
+        
+        if (filter2.length > 0) {
+            txtValue2 = td.textContent || td.innerText;
+            if (txtValue2.toUpperCase().indexOf(filter2) > -1) { //searches input in row array. so if found then 
+                tr[i].style.display = "";
+            } else {
+                tr[i].style.display = "none";
+            }
+        };
+          
       } else {
         tr[i].style.display = "none";
       }
