@@ -136,7 +136,7 @@ function myFunction() {
             } else {
                 tr[i].style.display = "none";
             }
-        };
+        }
           
       } else {
         tr[i].style.display = "none";
